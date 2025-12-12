@@ -63,5 +63,5 @@ for k in lis:
 	row+=1
 button(text="AC",bg='red',row=2,column=0,command=clear)
 button(text="C",fg='red',row=6,column=0,command=erase)
-button(text="=",bg='green',row=6,column=4,command=solve)
+button(text="=",bg='green',row=6,column=3,command=solve)
 root.mainloop()
