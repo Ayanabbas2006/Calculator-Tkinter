@@ -26,6 +26,7 @@ def clear():
 def erase(*args):
 	global result
 	s=result.get()
+	res.config(fg='white')
 	l=list(s)
 	l.pop(-1)
 	g=''.join(l)
